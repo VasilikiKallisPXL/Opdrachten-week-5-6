@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("assets/hout.jpg");
+    background-repeat: repeat;
+}
+
+aside {
+    float: right;
+    width: 260px;
+    height: 360px;
+    padding: 20px;
+    margin-right: 20px;
+    border-top: 3px solid #6e0a0a;
+    border-left: 3px solid #6e0a0a;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-image: url("assets/witte-marmer.jpg");
+    background-repeat: repeat;
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 3px solid #6e0a0a;
+    border-left: 3px solid #6e0a0a;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000
+}
+
+td {
+    border: 1px solid #6e0a0a;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+    background-image: url("assets/witte-marmer.jpg");
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-image: url("assets/zwarte-marmer.jpg");
+}

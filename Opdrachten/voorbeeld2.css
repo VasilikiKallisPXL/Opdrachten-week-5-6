@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 600px;
+    table-layout: fixed;
+}
+* {
+    font-family: Verdana, sans-serif;
+}
+td,th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+thead {
+    background-color: #6b6bff;
+}
+tbody {
+    background-color: #a5e967;
+}
+tfoot {
+    background-color: #bf49bf;
+    font-weight: bold;
+}

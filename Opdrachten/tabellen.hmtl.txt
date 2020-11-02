@@ -1,0 +1,29 @@
+tabelcel
+<td>
+
+<th>
+inhoud gecentreerd & vet
+
+<caption>
+academisch verplicht
+-krantenartikel
+-cijfers onderaan nieuwsbeeld
+
+--> niet veranderen in html
+
+table-layout: cellen even breed
+
+border: niet gebruiken
+
+Span: aangeven hoeveel cellen samenvoegen
+
+
+Mondriaan: kijk rij per rij; wat is aangehaald in css niet aanpassen in html.
+
+tr: firt-of-type {
+= eerste rij
+}
+th:first-child {
+=eerste kolom
+}
+

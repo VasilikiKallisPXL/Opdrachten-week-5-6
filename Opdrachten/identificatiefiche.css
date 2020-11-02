@@ -1,0 +1,15 @@
+table {
+border: 1px solid #412b2b;
+}
+th, td {
+    padding: 5px;
+}
+img {
+    height: 150px;
+}
+tr:nth-child(odd) {
+    background-color: #a24d64;
+}
+tr:nth-child(even) {
+    background-color: #8282ff;
+}

@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    border-color: #4e1f2c;
+    table-layout: fixed;
+    caption-side: bottom;
+    text-align: left;
+}
+td, th {
+    border: 1px solid #4e1f2c;
+    padding: 5px;
+}
